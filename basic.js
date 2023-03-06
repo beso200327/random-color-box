@@ -1,0 +1,15 @@
+var coloredBox = document.getElementById("colorFull");
+var btn = document.getElementById("colorChanger");
+btn.addEventListener("click", colorFunction);
+function colorFunction() {
+ //   var randomColor = getRandomColor();
+    coloredBox.style.backgroundColor = getRandomColor();
+  }
+  
+  function getRandomColor() {
+    var red = Math.floor(Math.random() * 256);
+    var green = Math.floor(Math.random() * 256);
+    var blue = Math.floor(Math.random() * 256);
+    return "rgb(" + red + "," + green + "," + blue + ")";
+  }
+  
