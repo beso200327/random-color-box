@@ -37,7 +37,7 @@
 
 Basic HTML CSS
 Managing multiple background image positioning
-Using overflow in CSS
+
 
 ### Useful resources
 
